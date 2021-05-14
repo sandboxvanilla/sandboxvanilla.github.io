@@ -1,0 +1,75 @@
+* {
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+body {
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.header {
+    opacity: 85%;
+    animation: fadeIn ease 2s;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #141616;
+    padding: 5%
+}
+.navbar {
+    opacity: 85%;
+    animation: fadeIn ease 2s;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #141616;
+    padding: 1%;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:0.85;}
+}
+li {
+    display: inline;
+    font-family: monospace;
+    color: white;
+}
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+h3, h4, a, p {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+.rules {
+    animation: fadeIn ease 2s;
+    opacity: 85%;
+    font-size: 18px;
+    background-color: #141616;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.faq {
+    opacity: 85%;
+    animation: fadeIn ease 2s;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #141616;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.discord_info {
+    opacity: 85%;
+    animation: fadeIn ease 2s;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #141616;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+}
