@@ -21,14 +21,14 @@ html {
 }
 
 .navbar {
-  opacity: 85%;
+  opacity: 90%;
   animation: fadeIn ease 2s;
   color: #FFFFFF;
   background-color: #141616;
 }
 
 .header {
-  opacity: 85%;
+  opacity: 90%;
   animation: fadeIn ease 2s;
   color: #FFFFFF;
   background-color: #141616;
@@ -40,7 +40,7 @@ html {
   }
 
   100% {
-    opacity: 0.85;
+    opacity: 0.90;
   }
 }
 
@@ -66,12 +66,12 @@ h3, h4, a, p {
 
 .rules {
   animation: fadeIn ease 2s;
-  opacity: 85%;
+  opacity: 90%;
   background-color: #141616;
 }
 
 .faq {
-  opacity: 85%;
+  opacity: 90%;
   animation: fadeIn ease 2s;
   color: #FFFFFF;
   background-color: #141616;
@@ -79,7 +79,7 @@ h3, h4, a, p {
 }
 
 .discord_info {
-  opacity: 85%;
+  opacity: 90%;
   animation: fadeIn ease 2s;
   text-align: center;
   color: #FFFFFF;
@@ -87,8 +87,8 @@ h3, h4, a, p {
 }
 
 hr.rounded {
-  border: 3px solid #9E9E9E;
-  opacity: 85%;
+  border: 3px solid #9c9c9c;
+  opacity: 90%;
   border-radius: 5px;
 }
 
