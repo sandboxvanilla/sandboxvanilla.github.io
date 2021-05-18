@@ -1,75 +1,109 @@
 * {
-    vertical-align: middle;
-    text-align: center;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 body {
-    margin: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
 }
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-.header {
-    opacity: 85%;
-    animation: fadeIn ease 2s;
-    font-size: 18px;
-    color: #FFFFFF;
-    background-color: #141616;
-    padding: 5%
+
+.navbar, .header, .rules, .faq, .discord_info {
+  padding: 1%;
+  border-radius: 5px;
 }
+
 .navbar {
-    opacity: 85%;
-    animation: fadeIn ease 2s;
-    font-size: 18px;
-    color: #FFFFFF;
-    background-color: #141616;
-    padding: 1%;
+  opacity: 85%;
+  animation: fadeIn ease 2s;
+  color: #FFFFFF;
+  background-color: #141616;
 }
+
+.header {
+  opacity: 85%;
+  animation: fadeIn ease 2s;
+  color: #FFFFFF;
+  background-color: #141616;
+}
+
 @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:0.85;}
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.85;
+  }
 }
+
 li {
-    display: inline;
-    font-family: monospace;
-    color: white;
+  display: inline;
+  font-family: monospace;
+  color: white;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-right: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
 }
+
 h1, h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
+
 h3, h4, a, p {
-    font-family: 'Roboto Mono', monospace;
-    color: white;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
 }
+
 .rules {
-    animation: fadeIn ease 2s;
-    opacity: 85%;
-    font-size: 18px;
-    background-color: #141616;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
+  animation: fadeIn ease 2s;
+  opacity: 85%;
+  background-color: #141616;
 }
+
 .faq {
-    opacity: 85%;
-    animation: fadeIn ease 2s;
-    font-size: 18px;
-    color: #FFFFFF;
-    background-color: #141616;
-    padding: 90px;
-    display: flex;
-    flex-direction: column;
+  opacity: 85%;
+  animation: fadeIn ease 2s;
+  color: #FFFFFF;
+  background-color: #141616;
+  padding-bottom: 81px
 }
+
 .discord_info {
-    opacity: 85%;
-    animation: fadeIn ease 2s;
-    font-size: 18px;
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #141616;
-    padding: 90px;
-    display: flex;
-    flex-direction: column;
+  opacity: 85%;
+  animation: fadeIn ease 2s;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #141616;
+}
+
+hr.rounded {
+  border: 3px solid #9E9E9E;
+  opacity: 85%;
+  border-radius: 5px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
 }

@@ -1,50 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <meta content="Sandbox Vanilla" property="og:title">
-    <meta content="A Garry's Mod server with a Vanilla experience." property="og:description">
-    <meta content="https://www.sandboxvanilla.xyz" property="og:url">
-    <meta content="https://www.sandboxvanilla.xyz/9k.png" property="og:image">
-    <meta content="#ffffff" data-react-helmet="true" name="theme-color">
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/x-icon" sizes="32x32" href="favicon.ico">
-    <title>Sanbox Vanilla</title>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <meta content="Sandbox Vanilla" property="og:title">
+  <meta content="A Garry's Mod server with a Vanilla experience." property="og:description">
+  <meta content="https://www.sandboxvanilla.xyz" property="og:url">
+  <meta content="https://www.sandboxvanilla.xyz/9k.png" property="og:image">
+  <meta content="#ffffff" data-react-helmet="true" name="theme-color">
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/x-icon" sizes="32x32" href="favicon.ico">
+  <title>Sanbox Vanilla</title>
 </head>
+
 <body onload="randomBg()">
-<div class="background">
+  <div class="background">
     <div class="navbar" id="home">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#rules">Rules</a></li>
-            <li><a href="#discord_info">Discord Info</a></li>
-            <li><a href="#faq">FAQ</a></li>
-        </ul>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#rules">Rules</a></li>
+        <li><a href="#discord_info">Discord Info</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
     </div>
+    <hr class="rounded">
     <div class="header">
-        <h1>Sandbox Vanilla</h1>
-        <h3>Extended rules, Discord commands, FAQ</h3>
+      <h1>Sandbox Vanilla</h1>
+      <h3>Extended rules, Discord commands, FAQ</h3>
     </div>
+    <hr class="rounded">
     <div class="rules" id="rules">
-        <h2>Rules</h2>
+      <h2>Rules</h2>
+      <p>You may not attempt to break other's props with your own. (proppushing)</p><br>
+      <p>Trapping/blocking players, other's props or builds is not allowed. (propblocking)</p><br>
+      <p>Spawning hostile NPCs near spawn or inside other's bases is not allowed.</p><br>
+      <p>You may propkill only with props around playersize or less. (breendesk, locker, etc.)</p><br>
+      <p>Don't spam; this includes explosives like satchels, NPCs, props, and so on.</p><br>
+      <p>If you're constantly being annoying, don't complain when others return the favour.</p>
     </div>
+    <hr class="rounded">
     <div class="discord_info" id="discord_info">
-        <h2>Discord Info</h2>
-          <h3>Commands (#game-chat):</h3>
-          <samp>!status, !staff, !players, !sync</samp><br>
-          <h3>Important channels: </h3>
+      <h2>Discord Info</h2>
+      <h3>Commands (#game-chat):</h3>
+      <samp>!status, !staff, !players, !sync</samp><br>
+      <h3>Important channels: </h3>
+      <p><b>#reports</b> - strictly for making reports about rule breaking.<br>
+        Please use a format following <a href="./report_example.png">[Name/SteamID], did [rule broken], here is [screenshot]</a>.</p>
     </div>
+    <hr class="rounded">
     <div class="faq" id="faq">
-        <h2>FAQ</h2>
-        <ul>
-          <li>Placeholder, i know a lot of this is offcenter but give me some time</li>
-        </ul>
+      <h2>FAQ</h2>
+      <p>Test</p>
     </div>
-</div>
+  </div>
 </body>
+
 </html>
