@@ -6,9 +6,7 @@
 }
 
 body {
-  margin: 0px;
-  display: flex;
-  flex-direction: column;
+  margin: 5%;
 }
 
 html {
@@ -48,19 +46,19 @@ li {
   display: inline;
   font-family: monospace;
   color: white;
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 0.6%;
+  padding-right: 0.6%;
   border-right: 1px solid #FFFFFF;
   border-left: 1px solid #FFFFFF;
 }
 
 h1, h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
 }
 
-h3, h4, a, p {
-  font-family: 'Roboto Mono', monospace;
+h3, h4, a, p, samp {
+  font-family: 'Raleway', monospace;
   color: white;
 }
 
@@ -68,6 +66,7 @@ h3, h4, a, p {
   animation: fadeIn ease 2s;
   opacity: 90%;
   background-color: #141616;
+  line-height: 0.9;
 }
 
 .faq {
@@ -75,7 +74,6 @@ h3, h4, a, p {
   animation: fadeIn ease 2s;
   color: #FFFFFF;
   background-color: #141616;
-  padding-bottom: 81px
 }
 
 .discord_info {
