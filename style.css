@@ -87,7 +87,7 @@ h3, h4, a, p {
 }
 
 hr.rounded {
-  border: 3px solid #9c9c9c;
+  border: 3px solid #ffbb00;
   opacity: 90%;
   border-radius: 5px;
 }
