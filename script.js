@@ -1,4 +1,4 @@
-var images = ["1.png", "2.png", "3.png", "4.png", "5.jpg", "7.png"];
+var images = ["1.png", "2.png", "3.png", "4.png", "5.jpg", "6.png"];
 var prefix = "url(\'./backgrounds/";
 var suffix = "\')";
 
