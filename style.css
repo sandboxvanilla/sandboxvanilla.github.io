@@ -45,23 +45,13 @@ html {
   }
 }
 
-li {
-  display: inline;
-  font-family: monospace;
-  color: white;
-  padding-left: 0.6%;
-  padding-right: 0.6%;
-  border-right: 1px solid #FFFFFF;
-  border-left: 1px solid #FFFFFF;
-}
-
 h1, h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
   color: white;
 }
 
 h3, h4, a, p, samp {
-  font-family: 'Raleway', monospace;
+  font-family: 'Kumbh Sans', monospace;
   color: white;
 }
 
@@ -82,13 +72,12 @@ h3, h4, a, p, samp {
 .discord_info {
   opacity: 90%;
   animation: fadeIn ease 2s;
-  text-align: center;
   color: #FFFFFF;
   background-color: #141616;
 }
 
 hr.rounded {
-  border: 3px solid #ffbb00;
+  border: 3px solid white;
   opacity: 90%;
   border-radius: 5px;
 }
