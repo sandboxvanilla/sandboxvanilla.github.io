@@ -62,6 +62,14 @@ h3, h4, a, p, samp {
   line-height: 0.9;
 }
 
+a {
+  border-right: 1px solid white;
+  padding-right: 2px;
+  border-left: 1px solid white;
+  padding-left: 2px;
+}
+
+
 .faq {
   opacity: 90%;
   animation: fadeIn ease 2s;
