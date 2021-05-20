@@ -59,7 +59,7 @@ h3, h4, a, p, samp {
   animation: fadeIn ease 2s;
   opacity: 90%;
   background-color: #141616;
-  line-height: 0.9;
+  line-height: 0.80;
 }
 
 a {
